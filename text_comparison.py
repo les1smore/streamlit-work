@@ -77,7 +77,7 @@ def main():
         use_column_width='always')
 
         st.title('Text Comparison Demo')
-        st.markdown('Find out how the course descriptions of a program matches to its target CIP code descriptions with highlighted matching words.')
+        st.markdown('Find out how program course descriptions align with their CIP code descriptions. Choose your similarity threshold to highlight matching words. The default threshold is set to 0.6.')
         with st.sidebar:
 
             st.title('Dive right in! 😃')
