@@ -99,7 +99,7 @@ def main():
         # Text input for document 1
         document1 = st.text_area("📕 Enter CIP Code Descriptions:", document1_initial_value, height=150)
         # Text input for document 2
-        document2 = st.text_area("📗 Enter Course Descriptions: (❗️Please start each course description on a new line, see the sample text for details):", document2_initial_value, height=350)
+        document2 = st.text_area("📗 Enter Course Descriptions: (❗️Please start each course description on a new line, see the sample text for reference):", document2_initial_value, height=350)
 
         if st.button('Compare'):
             with col2:
