@@ -1,0 +1,10 @@
+gensim==4.1.2
+ipython==7.31.1
+nltk==3.7
+numpy==1.23.1
+pandas==1.4.4
+scikit_learn==1.0.2
+sentence_transformers==2.2.2
+spacy==3.6.1
+streamlit==1.26.0
+torch==1.13.1
