@@ -33,9 +33,6 @@ from spacy.lang.en.stop_words import STOP_WORDS
 from IPython.display import HTML
 from gensim.models import Word2Vec
 from sklearn.metrics.pairwise import cosine_similarity
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-nltk.download('stopwords')
 
 import spacy
 import numpy as np
@@ -44,6 +41,9 @@ import torch
 import pandas as pd
 import gensim
 import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+nltk.download('stopwords')
 
 
 # Load the SBERT model
