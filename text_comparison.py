@@ -42,6 +42,7 @@ import string
 import torch
 import pandas as pd
 import gensim
+import nltk
 
 
 # Load the SBERT model
