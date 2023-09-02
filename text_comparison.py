@@ -28,6 +28,7 @@ hide_default_format = """
 """
 st.markdown(hide_default_format, unsafe_allow_html=True)
 
+pip install -U sentence-transformers
 from sentence_transformers import SentenceTransformer, util
 from spacy.lang.en.stop_words import STOP_WORDS
 from IPython.display import HTML
